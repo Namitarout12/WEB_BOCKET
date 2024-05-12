@@ -1,0 +1,32 @@
+.main
+{
+    height: 1000px;
+    width: 1000px;
+    border: 10px solid black;
+    font-size: 20px;
+    color: yellow;
+    background: url('img.flower.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-right:8px ;
+
+}
+.head{
+    border: 1px solid black;
+    position: fixed;
+    text-align: center;
+    height: 80px;
+    width: 1000px;
+    font-size: 20px;
+    background-color: black;
+
+}
+#bo{
+    border: 1px solid black;
+    position: fixed;
+    font-size: 30px;
+    height: 80px;
+    width: 1000px;
+    text-align: center;
+    background-color: brown;
+}
