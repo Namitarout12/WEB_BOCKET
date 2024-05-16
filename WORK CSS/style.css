@@ -1,17 +1,17 @@
-.main
-{
+.main {
     height: 1000px;
     width: 1000px;
     border: 10px solid black;
     font-size: 20px;
-    color: yellow;
+    color: rgb(53, 53, 48);
     background: url('img.flower.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    border-right:8px ;
+    border-right: 8px;
 
 }
-.head{
+
+.head {
     border: 1px solid black;
     position: fixed;
     text-align: center;
@@ -21,7 +21,8 @@
     background-color: black;
 
 }
-#bo{
+
+#bo {
     border: 1px solid black;
     position: fixed;
     font-size: 30px;

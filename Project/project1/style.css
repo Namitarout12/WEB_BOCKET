@@ -1,60 +1,71 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:gray;
+
+body {
+    background-color: gray;
 }
-.container{
+
+.container {
     max-width: 900px;
     margin: 0 auto;
-    
+
 }
-.content_box{
+
+.content_box {
     max-width: 600 px;
     background-color: white;
     margin: 0 auto;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    
+
 }
-.sub_title{
+
+.sub_title {
     font-size: 20px;
 }
-.from_container{
+
+.from_container {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px ,150px)) ;
-    gap:20px
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px
 }
-.from_control{
+
+.from_control {
     display: flex;
     flex-direction: column;
 }
+
 input,
 select,
-textarea{
-    padding: 3px 6px;
+textarea {
+    padding: 6px 10px;
     border-radius: 4px;
 }
-input:focus{
-    outline-color:brown ;
+
+input:focus {
+    outline-color: brown;
 }
-textarea:focus{
-    outline-color:brown;
+
+textarea:focus {
+    outline-color: brown;
 }
-.text_area{
+
+.text_area {
     display: grid;
     grid-column: 1/span 2;
 }
-.button_container
-{
+
+.button_container {
     display: flex;
     justify-content: end;
 
 }
-button{
+
+button {
     background-color: green;
     color: black;
     padding: 3px 5px;
@@ -62,11 +73,10 @@ button{
     border: transparent;
 
 }
-button:hover{
-    cursor:pointer;
 
-    background-color:brown; 
-    transition: 2s ease-in-out;   
+button:hover {
+    cursor: pointer;
+
+    background-color: brown;
+    transition: 2s ease-in-out;
 }
-
-
